@@ -1,5 +1,5 @@
 from pessoas import Pessoa
-from carros import Carro, Fusca
+from carros import Carro, Fusca, Ferrari
 
 
 #p = Pessoa()
@@ -7,16 +7,19 @@ from carros import Carro, Fusca
 #print(p.nome)
 #p.salvar()
 
-p = Pessoa()
-p.nome = 'José'
-p.salvar("João")
+#p = Pessoa()
+#p.nome = 'José'
+#p.salvar("João")
 
-c = Carro('Rua')
-c.andar()
-print(c.caminho)
-c.caminho = "Estrada"
-print(c.caminho)
+#c = Carro('Rua')
+#c.andar()
+#print(c.caminho)
+#c.caminho = "Estrada"
+#print(c.caminho)
 
-f = Fusca('praia')
+f = Fusca("Praia")
 print(f.caminho)
-print(f.andar())
+print(f.andar('avenida'))
+
+ferrari = Ferrari("Avenida")
+ferrari.andar()
